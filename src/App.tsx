@@ -42,7 +42,7 @@ function HowItWorks() {
           {steps.map((step, i) => (
             <FadeInSection key={i} delay={i * 0.1}>
               <div className="relative bg-white rounded-2xl border border-border/60 p-8 shadow-sm hover:shadow-md transition-shadow">
-                <span className="absolute top-6 right-7 text-5xl font-black text-gray-100 select-none leading-none">{step.num}</span>
+                <span className="absolute top-6 right-7 text-5xl font-black text-gray-400 select-none leading-none">{step.num}</span>
                 <div className="h-12 w-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5">
                   {step.icon}
                 </div>
