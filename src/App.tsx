@@ -236,7 +236,9 @@ function Home() {
     setHasCopied(false);
     
     try {
-      const response = await fetch("http://localhost:8080/shortly/shorten", {
+      // const response = await fetch("http://localhost:8080/shortly/shorten", {
+        const response = await fetch("https://shortly-api-yceb.onrender.com/shorten", {
+
         method: "POST",
         headers: {
           "Content-Type": "application/json",
