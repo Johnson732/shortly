@@ -310,7 +310,7 @@ function Home() {
           >
             <div className="inline-flex items-center rounded-full border border-border bg-white px-3 py-1 text-sm font-medium text-muted-foreground mb-6 shadow-sm">
               <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2"></span>
-              Shortly 2.0 is now live
+              Shortly is now live
               <ChevronRight size={14} className="ml-1 opacity-50" />
             </div>
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-primary mb-6 leading-[1.1]">
