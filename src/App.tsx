@@ -237,7 +237,7 @@ function Home() {
     
     try {
       // const response = await fetch("http://localhost:8080/shortly/shorten", {
-        const response = await fetch("https://shortly-api-yceb.onrender.com/shorten", {
+        const response = await fetch("https://shortly-api-yceb.onrender.com/shorten1", {
 
         method: "POST",
         headers: {
